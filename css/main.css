@@ -24,8 +24,15 @@ html {
 }
 
 .banner-text {
-  text-transform: uppercase;
   position: relative;
+}
+
+.nina {
+  text-transform: uppercase;
+}
+
+h6 {
+  color: #FF9000;
 }
 
 header {
@@ -40,6 +47,15 @@ a {
   list-style-type: none;
   text-decoration: none;
   color: #fff;
+}
+
+a:hover {
+  color: #FF9000;
+}
+
+.btn:hover {
+  background-color: #049FD7;
+  border-color: #049FD7;
 }
 
 .btn {
@@ -76,4 +92,13 @@ p {
 
 small {
   color: #fff;
+}
+
+.aboutp {
+  text-align: left;
+}
+
+.logo {
+  width: 15%;
+  transform: translateY(-11px);
 }
