@@ -1,0 +1,79 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.index-banner {
+  background-image: url("../images/banner.jpg");
+  min-height: 000px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.tour-banner {
+  background-image: url("../images/banner.jpg");
+  min-height: 000px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.pricing-banner  {
+    background-image: url("../images/banner.jpg");
+    min-height: 000px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.banner-text {
+  text-transform: uppercase;
+  position: relative;
+}
+
+header {
+  background-color: #049FD7;
+}
+
+footer {
+  background-color: #049FD7;
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn {
+  background-color: #FF9000;
+  border-color: #FF9000;
+  color: #fff;
+}
+
+
+h1 {
+  color: #049FD7;
+}
+
+h2 {
+  color: #049FD7;
+}
+
+p {
+  color: #049FD7
+}
+
+.contact-info {
+  color: #049FD7
+}
+
+.banner-img {
+  width: 100%;
+}
+
+.height {
+  height: 32px;
+  width: 32px;
+}
+
+small {
+  color: #fff;
+}
