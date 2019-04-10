@@ -35,6 +35,19 @@ h6 {
   color: #FF9000;
 }
 
+legend {
+  color: #FF9000;
+}
+
+input {
+  border-color: #049FD7;
+}
+
+fieldset {
+  color: #049FD7;
+  border-color: #FF9000;
+}
+
 header {
   background-color: #049FD7;
 }
@@ -95,6 +108,10 @@ small {
 }
 
 .aboutp {
+  text-align: left;
+}
+
+.gstarterd {
   text-align: left;
 }
 
