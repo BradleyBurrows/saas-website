@@ -123,3 +123,7 @@ small {
 .template-img {
   height: 250px;
 }
+
+.about-img {
+  width: 100%;
+}
