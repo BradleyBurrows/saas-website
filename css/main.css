@@ -116,6 +116,10 @@ small {
 }
 
 .logo {
-  width: 15%;
+  height: 71px;
   transform: translateY(-11px);
+}
+
+.template-img {
+  height: 250px;
 }
