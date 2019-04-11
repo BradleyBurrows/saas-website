@@ -4,7 +4,6 @@ html {
 
 .index-banner {
   background-image: url("../images/banner.jpg");
-  min-height: 000px;
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -98,10 +97,10 @@ p {
   width: 100%;
 }
 
-.height {
+/* .height {
   height: 32px;
   width: 32px;
-}
+} */
 
 small {
   color: #fff;
@@ -126,4 +125,16 @@ small {
 
 .about-img {
   width: 100%;
+}
+
+.footer-info {
+  transform: translateY(-40px);
+}
+
+footer {
+  height: 110px;
+}
+
+.thefooter {
+  height: 110px;
 }

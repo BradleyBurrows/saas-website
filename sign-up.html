@@ -11,19 +11,19 @@
 </head>
 <body>
   <header role="banner">
-  <div>
-    <i><a href="index.html"><img src="images/icon.svg" alt="logo"></a></i>
-    <div class="nav navtop text-right">
-      <nav role="navigation" id="nav" tabindex="0">
-        <ul class="push-none grid grid-middle unit list-group">
-          <li class="unit gutter-1-2 pad-b-1-2 pad-t-1-2 bold"><a href="index.html">Home</a></li>
-          <li class="unit gutter-1-2 pad-b-1-2 pad-t-1-2 bold"><a href="tour.html">Products</a></li>
-          <li class="unit gutter-1-2 pad-b-1-2 pad-t-1-2 bold"><a href="pricing.html">Pricing</a></li>
-          <li class="unit gutter-1-2 pad-b-1-2 pad-t-1-2 bold"><a href="sign-up.html">Sign Up</a></li>
-        </ul>
-      </nav>
+    <div class="wrapper">
+      <i><a href="index.html"><img class="logo absolute" src="images/logo.png" alt="logo"></a></i>
+      <div class="nav navtop text-right">
+        <nav role="navigation" id="nav" tabindex="0">
+          <ul class="push-none grid grid-middle unit list-group">
+            <li class="unit gutter-1-2 pad-b-1-2 pad-t-1-2 bold"><a href="index.html">Home</a></li>
+            <li class="unit gutter-1-2 pad-b-1-2 pad-t-1-2 bold"><a href="tour.html">Products</a></li>
+            <li class="unit gutter-1-2 pad-b-1-2 pad-t-1-2 bold"><a href="pricing.html">Subscriptions</a></li>
+            <li class="unit gutter-1-2 pad-b-1-2 pad-t-1-2 bold"><a href="sign-up.html">Sign Up</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
-  </div>
   </header>
 
   <main class="gutter wrapper" id="main" tabindex="0" role="main">
@@ -59,24 +59,29 @@
   </main>
 
   <footer role="contentinfo">
-    <div class="">
+    <div class="wrapper thefooter">
       <div class="social-icons">
-        <i class="icon i-32 embed embed-1by1"><a href="https://www.instagram.com"><img class="embed-item height" src="images/instagram.svg" alt="instagram"></a></i>
-        <i class="icon i-32 embed embed-1by1"><a href="https://www.facebook.com/"><img class="embed-item height" src="images/facebook.svg" alt=""></a></i>
-        <i class="icon i-32 embed embed-1by1"><a href="https://twitter.com/"><img class="embed-item height" src="images/twitter.svg" alt=""></a></i>
+        <ul class="list-group-inline pad-t island-1-2 push-0">
+          <li><i class="icon i-32"><a href="https://twitter.com/"><img class="" src="images/twitter.svg" alt=""></a></i></li>
+          <li><i class="icon i-32"><a href="https://instagram.com/"><img src="images/instagram.svg" alt=""></a></i></li>
+          <li><i class="icon i-32"><a href="https://facebook.com/"><img class="img-flex" src="images/facebook.svg" alt=""></a></i></li>
+        </ul>
       </div>
-      <div class="milli nav text-right">
-        <nav>
-          <ul class="push-none grid grid-middle unit list-group">
-            <li class="unit gutter-1-2"><a href="index.html">Home</a></li>
-            <li class="unit gutter-1-2"><a href="tour.html">Products</a></li>
-            <li class="unit gutter-1-2"><a href="pricing.html">Pricing</a></li>
-            <li class="unit gutter-1-2"><a href="sign-up.html">Sign Up</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="copyright text-right island-1-2">
-        <small class="pico">©Company Name, 2019</small>
+
+      <div class="footer-info">
+        <div class="milli nav text-right">
+          <nav>
+            <ul class="push-none grid grid-middle unit list-group">
+              <li class="unit gutter-1-2"><a href="index.html">Home</a></li>
+              <li class="unit gutter-1-2"><a href="tour.html">Products</a></li>
+              <li class="unit gutter-1-2"><a href="pricing.html">Pricing</a></li>
+              <li class="unit gutter-1-2"><a href="sign-up.html">Sign Up</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="copyright text-right island-1-2">
+          <small class="pico">©MySite, 2019</small>
+        </div>
       </div>
     </div>
   </footer>
