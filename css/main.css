@@ -1,5 +1,5 @@
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .index-banner {
@@ -10,14 +10,12 @@ html {
 
 .tour-banner {
   background-image: url("../images/banner.jpg");
-  min-height: 000px;
   background-size: cover;
   background-position: 50% 50%;
 }
 
 .pricing-banner  {
     background-image: url("../images/banner.jpg");
-    min-height: 000px;
     background-size: cover;
     background-position: 50% 50%;
 }
@@ -30,29 +28,29 @@ html {
   text-transform: uppercase;
 }
 
-h6 {
-  color: #FF9000;
+.subtitle {
+  color: #ff9000;
 }
 
 legend {
-  color: #FF9000;
+  color: #ff9000;
 }
 
 input {
-  border-color: #049FD7;
+  border-color: #049fd7;
 }
 
 fieldset {
-  color: #049FD7;
-  border-color: #FF9000;
+  color: #049fd7;
+  border-color: #ff9000;
 }
 
 header {
-  background-color: #049FD7;
+  background-color: #049fd7;
 }
 
 footer {
-  background-color: #049FD7;
+  background-color: #049fd7;
 }
 
 a {
@@ -62,45 +60,43 @@ a {
 }
 
 a:hover {
-  color: #FF9000;
+  color: #ff9000;
 }
 
 .btn:hover {
-  background-color: #049FD7;
-  border-color: #049FD7;
+  background-color: #049fd7;
+  border-color: #049fd7;
 }
 
 .btn {
-  background-color: #FF9000;
-  border-color: #FF9000;
+  background-color: #ff9000;
+  border-color: #ff9000;
   color: #fff;
 }
 
-
 h1 {
-  color: #049FD7;
+  color: #049fd7;
 }
 
 h2 {
-  color: #049FD7;
+  color: #049fd7;
 }
 
 p {
-  color: #049FD7
+  color: #049fd7;
+}
+
+.title {
+  color: #049fd7;
 }
 
 .contact-info {
-  color: #049FD7
+  color: #049fd7;
 }
 
 .banner-img {
   width: 100%;
 }
-
-/* .height {
-  height: 32px;
-  width: 32px;
-} */
 
 small {
   color: #fff;
