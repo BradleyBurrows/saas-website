@@ -14,18 +14,14 @@ html {
   background-position: 50% 50%;
 }
 
-.pricing-banner  {
-    background-image: url("../images/banner.jpg");
-    background-size: cover;
-    background-position: 50% 50%;
+.pricing-banner {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .banner-text {
   position: relative;
-}
-
-.nina {
-  text-transform: uppercase;
 }
 
 .subtitle {
@@ -37,20 +33,29 @@ legend {
 }
 
 input {
-  border-color: #049fd7;
+  border-color: #272969;
 }
 
 fieldset {
-  color: #049fd7;
+  color: #272969;
   border-color: #ff9000;
 }
 
 header {
-  background-color: #049fd7;
+  background-color: #272969;
 }
 
 footer {
-  background-color: #049fd7;
+  background-color: #272969;
+  height: 110px;
+}
+
+td {
+  color: #272969;
+}
+
+th {
+  color: #272969;
 }
 
 a {
@@ -64,34 +69,38 @@ a:hover {
 }
 
 .btn:hover {
-  background-color: #049fd7;
-  border-color: #049fd7;
+  background-color: #ff9000;
+  border-color: #ff9000;
 }
 
 .btn {
-  background-color: #ff9000;
-  border-color: #ff9000;
+  background-color: #272969;
+  border-color: #272969;
   color: #fff;
 }
 
 h1 {
-  color: #049fd7;
+  color: #272969;
 }
 
 h2 {
-  color: #049fd7;
+  color: #272969;
 }
 
 p {
-  color: #049fd7;
+  color: #272969;
+}
+
+caption {
+  color: #272969;
 }
 
 .title {
-  color: #049fd7;
+  color: #272969;
 }
 
 .contact-info {
-  color: #049fd7;
+  color: #272969;
 }
 
 .banner-img {
@@ -127,10 +136,10 @@ small {
   transform: translateY(-40px);
 }
 
-footer {
+.thefooter {
   height: 110px;
 }
 
-.thefooter {
-  height: 110px;
+.bannercontent {
+  transform: translateY(9px);
 }

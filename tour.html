@@ -16,9 +16,11 @@
   </ul>
 
   <header role="banner">
-    <div class="wrapper">
-      <i><a href="index.html"><img class="logo absolute" src="images/logo.png" alt="logo"></a></i>
-      <div class="nav navtop text-right">
+    <div class="wrapper grid pad-t-1-4 bannercontent">
+      <div class="unit xs-1 s-1-3 m-1-3 l-1-3">
+        <i><a class="aclass" href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a></i>
+      </div>
+      <div class="nav navtop text-right unit xs-1 s-2-3 m-2-3 l-2-3">
         <nav role="navigation" id="nav" tabindex="0">
           <ul class="push-none grid grid-middle unit list-group">
             <li class="unit gutter-1-2 pad-b-1-2 pad-t-1-2 bold"><a href="index.html">Home</a></li>
@@ -31,8 +33,8 @@
     </div>
     <section class="index-banner pad-t-2 pad-b-2 relative">
       <div class="banner-text absolute wrapper insland-1-2">
-        <h1 class="push-0 nina">your site.</h1>
-        <p class="push-0 nina title bold">your way.</p>
+        <h1 class="push-0 nina text-upper">your site.</h1>
+        <p class="push-0 nina title bold text-upper">your way.</p>
         <p class="subtitle bold">Build your very own website</p>
         <a href="sign-up.html" class="btn btn-small">Sign Up</a>
       </div>
@@ -40,54 +42,66 @@
   </header>
 
   <main class="gutter wrapper" id="main" tabindex="0" role="main">
-    <div class="features grid">
-      <div class="feature-one unit xs-1 s-1 m-1-3 l-1-3 island-1-2">
-        <img src="images/placeholder-2by3.svg" alt="">
-        <h2>Total Control</h2>
-        <p>Build your dream website the way you want, using our expertly crafted development tools designed to give you total control over your websites design and functionality. Never run out of options to design the perfect website.</p>
-      </div>
-      <div class="feature-two unit xs-1 s-1 m-1-3 l-1-3 island-1-2">
-        <img src="images/placeholder-2by3.svg" alt="">
-        <h2>Get Online Fast</h2>
-        <p>You’ll love how fast you can get online and look amazing! MySite Artificial Design Intelligence (ADI) will instantly build a website personalized just for you, complete with professional text and images that can be tweaked to your liking.</p>
-      </div>
-      <div class="feature-three unit xs-1 s-1 m-1-3 l-1-3 island-1-2">
-        <img src="images/placeholder-2by3.svg" alt="">
-        <h2>Creative Library</h2>
-        <p>Design your website to look clean and professional for free with access to our basic template library that contains 200+ pre-made professionally designed templates, icons and more to help create a website that suites your needs.</p>
-      </div>
-    </div>
+    <table class="wrapper">
+      <caption class="nina not-italic text-center bold pad-t">Features</caption>
+      <thead>
+        <tr>
+          <th class="exa" scope="col">Total Control</th>
+          <th class="exa" scope="col">Get Online Fast</th>
+          <th class="exa" scope="col">Creative Library</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Build your dream website the way you want, using our expertly crafted development tools designed to give you total control over your websites design and functionality. Never run out of options to design the perfect website.</td>
+          <td>You’ll love how fast you can get online and look amazing! MySite Artificial Design Intelligence (ADI) will instantly build a website personalized just for you, complete with professional text and images that can be tweaked to your liking.</td>
+          <td>Design your website to look clean and professional for free with access to our basic template library that contains 200+ pre-made professionally designed templates, icons and more to help create a website that suites your needs.</td>
+        </tr>
+      </tbody>
+    </table>
 
-    <h1 class="text-center pad-t push-0 pad-b-1-2">Templates</h1>
+    <p class="text-center pad-t push-0 pad-b-1-2 nina bold">Templates</p>
 
     <div class="templates grid text-center pad-b">
       <div class="template-one unit xs-1 s-1 m-1-2 l-1-2 island-1-2">
-        <img class="template-img" src="images/template-one.png" alt="">
+        <div class="embed embed-3by2">
+          <img class="embed-item template-img pad-b-1-2" src="images/template-one.png" alt="">
+        </div>
         <h2>Template 1</h2>
         <a href="sign-up.html" class="btn btn-small">Use</a>
       </div>
       <div class="template-two unit xs-1 s-1 m-1-2 l-1-2 island-1-2">
-        <img class="template-img" src="images/template-two.jpg" alt="">
+        <div class="embed embed-3by2">
+          <img class="embed-item template-img pad-b-1-2" src="images/template-two.jpg" alt="">
+        </div>
         <h2>Template 2</h2>
         <a href="sign-up.html" class="btn btn-small">Use</a>
       </div>
       <div class="template-three unit xs-1 s-1 m-1-2 l-1-2 island-1-2">
-        <img class="template-img" src="images/template-three.png" alt="">
+        <div class="embed embed-3by2">
+          <img class="embed-item template-img pad-b-1-2" src="images/template-three.png" alt="">
+        </div>
         <h2>Template 3</h2>
         <a href="sign-up.html" class="btn btn-small">Use</a>
       </div>
       <div class="template-four unit xs-1 s-1 m-1-2 l-1-2 island-1-2">
-        <img class="template-img" src="images/template-four.jpg" alt="">
+        <div class="embed embed-3by2">
+          <img class="embed-item template-img pad-b-1-2" src="images/template-four.jpg" alt="">
+        </div>
         <h2>Template 4</h2>
         <a href="sign-up.html" class="btn btn-small">Use</a>
       </div>
       <div class="template-five unit xs-1 s-1 m-1-2 l-1-2 island-1-2">
-        <img class="template-img" src="images/template-five.jpg" alt="">
+        <div class="embed embed-3by2">
+          <img class="embed-item template-img pad-b-1-2" src="images/template-five.jpg" alt="">
+        </div>
         <h2>Template 5</h2>
         <a href="sign-up.html" class="btn btn-small">Use</a>
       </div>
       <div class="template-six unit xs-1 s-1 m-1-2 l-1-2 island-1-2">
-        <img class="template-img" src="images/template-six.jpg" alt="">
+        <div class="embed embed-3by2">
+          <img class="embed-item template-img pad-b-1-2" src="images/template-six.jpg" alt="">
+        </div>
         <h2>Template 6</h2>
         <a href="sign-up.html" class="btn btn-small">Use</a>
       </div>
