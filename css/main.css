@@ -121,7 +121,7 @@ small {
 
 .logo {
   height: 71px;
-  transform: translateY(-11px);
+  /* transform: translateY(-11px); */
 }
 
 .template-img {
